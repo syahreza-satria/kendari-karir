@@ -38,7 +38,7 @@
                      </li>
                  @else
                      {{-- Jika INI item terakhir, tampilkan sebagai teks biasa (halaman aktif) --}}
-                     <li class="font-medium text-gray-700" aria-current="page">
+                     <li class="font-medium text-sky-500" aria-current="page">
                          {{ $breadcrumb['name'] }}
                      </li>
                  @endif
